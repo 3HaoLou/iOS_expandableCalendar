@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFC22A841F0E50B30092D39B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22A831F0E50B30092D39B /* AppDelegate.swift */; };
+		BFC22A861F0E50B30092D39B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22A851F0E50B30092D39B /* ViewController.swift */; };
+		BFC22A891F0E50B30092D39B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC22A871F0E50B30092D39B /* Main.storyboard */; };
+		BFC22A8B1F0E50B30092D39B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC22A8A1F0E50B30092D39B /* Assets.xcassets */; };
+		BFC22A8E1F0E50B30092D39B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC22A8C1F0E50B30092D39B /* LaunchScreen.storyboard */; };
+		BFC22A991F0E50B30092D39B /* CalenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22A981F0E50B30092D39B /* CalenderTests.swift */; };
+		BFC22AA41F0E50B30092D39B /* CalenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AA31F0E50B30092D39B /* CalenderUITests.swift */; };
+		BFC22ABA1F0E50FD0092D39B /* CalenderTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AB31F0E50FD0092D39B /* CalenderTaskCell.swift */; };
+		BFC22ABB1F0E50FD0092D39B /* DayCalenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AB41F0E50FD0092D39B /* DayCalenderCell.swift */; };
+		BFC22ABC1F0E50FD0092D39B /* ExpandCalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AB51F0E50FD0092D39B /* ExpandCalender.swift */; };
+		BFC22ABD1F0E50FD0092D39B /* MonthCalenderViewCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AB61F0E50FD0092D39B /* MonthCalenderViewCellCollectionViewCell.swift */; };
+		BFC22ABE1F0E50FD0092D39B /* TaskDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AB71F0E50FD0092D39B /* TaskDateModel.swift */; };
+		BFC22ABF1F0E50FD0092D39B /* TaskListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AB81F0E50FD0092D39B /* TaskListCell.swift */; };
+		BFC22AEA1F0E51C00092D39B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BFC22AC11F0E51C00092D39B /* LICENSE */; };
+		BFC22AEB1F0E51C00092D39B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AC21F0E51C00092D39B /* README.md */; };
+		BFC22AEC1F0E51C00092D39B /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AC41F0E51C00092D39B /* DateHelper.swift */; };
+		BFC22AED1F0E51C00092D39B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BFC22AC61F0E51C00092D39B /* LICENSE */; };
+		BFC22AEE1F0E51C00092D39B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AC71F0E51C00092D39B /* README.md */; };
+		BFC22AEF1F0E51C00092D39B /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AC91F0E51C00092D39B /* Constraint.swift */; };
+		BFC22AF01F0E51C00092D39B /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22ACA1F0E51C00092D39B /* ConstraintAttributes.swift */; };
+		BFC22AF11F0E51C00092D39B /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22ACB1F0E51C00092D39B /* ConstraintConfig.swift */; };
+		BFC22AF21F0E51C00092D39B /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22ACC1F0E51C00092D39B /* ConstraintConstantTarget.swift */; };
+		BFC22AF31F0E51C00092D39B /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22ACD1F0E51C00092D39B /* ConstraintDescription.swift */; };
+		BFC22AF41F0E51C00092D39B /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22ACE1F0E51C00092D39B /* ConstraintDSL.swift */; };
+		BFC22AF51F0E51C00092D39B /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22ACF1F0E51C00092D39B /* ConstraintInsets.swift */; };
+		BFC22AF61F0E51C00092D39B /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AD01F0E51C00092D39B /* ConstraintInsetTarget.swift */; };
+		BFC22AF71F0E51C00092D39B /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AD11F0E51C00092D39B /* ConstraintItem.swift */; };
+		BFC22AF81F0E51C00092D39B /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AD21F0E51C00092D39B /* ConstraintLayoutGuide+Extensions.swift */; };
+		BFC22AF91F0E51C00092D39B /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AD31F0E51C00092D39B /* ConstraintLayoutGuide.swift */; };
+		BFC22AFA1F0E51C00092D39B /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AD41F0E51C00092D39B /* ConstraintLayoutGuideDSL.swift */; };
+		BFC22AFB1F0E51C00092D39B /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AD51F0E51C00092D39B /* ConstraintLayoutSupport.swift */; };
+		BFC22AFC1F0E51C00092D39B /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AD61F0E51C00092D39B /* ConstraintLayoutSupportDSL.swift */; };
+		BFC22AFD1F0E51C00092D39B /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AD71F0E51C00092D39B /* ConstraintMaker.swift */; };
+		BFC22AFE1F0E51C00092D39B /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AD81F0E51C00092D39B /* ConstraintMakerEditable.swift */; };
+		BFC22AFF1F0E51C00092D39B /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AD91F0E51C00092D39B /* ConstraintMakerExtendable.swift */; };
+		BFC22B001F0E51C00092D39B /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22ADA1F0E51C00092D39B /* ConstraintMakerFinalizable.swift */; };
+		BFC22B011F0E51C00092D39B /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22ADB1F0E51C00092D39B /* ConstraintMakerPriortizable.swift */; };
+		BFC22B021F0E51C00092D39B /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22ADC1F0E51C00092D39B /* ConstraintMakerRelatable.swift */; };
+		BFC22B031F0E51C00092D39B /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22ADD1F0E51C00092D39B /* ConstraintMultiplierTarget.swift */; };
+		BFC22B041F0E51C00092D39B /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22ADE1F0E51C00092D39B /* ConstraintOffsetTarget.swift */; };
+		BFC22B051F0E51C00092D39B /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22ADF1F0E51C00092D39B /* ConstraintPriority.swift */; };
+		BFC22B061F0E51C00092D39B /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AE01F0E51C00092D39B /* ConstraintPriorityTarget.swift */; };
+		BFC22B071F0E51C00092D39B /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AE11F0E51C00092D39B /* ConstraintRelatableTarget.swift */; };
+		BFC22B081F0E51C00092D39B /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AE21F0E51C00092D39B /* ConstraintRelation.swift */; };
+		BFC22B091F0E51C00092D39B /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AE31F0E51C00092D39B /* ConstraintView+Extensions.swift */; };
+		BFC22B0A1F0E51C00092D39B /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AE41F0E51C00092D39B /* ConstraintView.swift */; };
+		BFC22B0B1F0E51C00092D39B /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AE51F0E51C00092D39B /* ConstraintViewDSL.swift */; };
+		BFC22B0C1F0E51C00092D39B /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AE61F0E51C00092D39B /* Debugging.swift */; };
+		BFC22B0D1F0E51C00092D39B /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AE71F0E51C00092D39B /* LayoutConstraint.swift */; };
+		BFC22B0E1F0E51C00092D39B /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AE81F0E51C00092D39B /* LayoutConstraintItem.swift */; };
+		BFC22B0F1F0E51C00092D39B /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22AE91F0E51C00092D39B /* UILayoutSupport+Extensions.swift */; };
+		BFC22B111F0E524E0092D39B /* SwiftUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC22B101F0E524E0092D39B /* SwiftUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFC22A951F0E50B30092D39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC22A781F0E50B20092D39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFC22A7F1F0E50B30092D39B;
+			remoteInfo = Calender;
+		};
+		BFC22AA01F0E50B30092D39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC22A781F0E50B20092D39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFC22A7F1F0E50B30092D39B;
+			remoteInfo = Calender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFC22A801F0E50B30092D39B /* Calender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC22A831F0E50B30092D39B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFC22A851F0E50B30092D39B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFC22A881F0E50B30092D39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFC22A8A1F0E50B30092D39B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFC22A8D1F0E50B30092D39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFC22A8F1F0E50B30092D39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC22A941F0E50B30092D39B /* CalenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC22A981F0E50B30092D39B /* CalenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderTests.swift; sourceTree = "<group>"; };
+		BFC22A9A1F0E50B30092D39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC22A9F1F0E50B30092D39B /* CalenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC22AA31F0E50B30092D39B /* CalenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderUITests.swift; sourceTree = "<group>"; };
+		BFC22AA51F0E50B30092D39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC22AB31F0E50FD0092D39B /* CalenderTaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderTaskCell.swift; sourceTree = "<group>"; };
+		BFC22AB41F0E50FD0092D39B /* DayCalenderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCalenderCell.swift; sourceTree = "<group>"; };
+		BFC22AB51F0E50FD0092D39B /* ExpandCalender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandCalender.swift; sourceTree = "<group>"; };
+		BFC22AB61F0E50FD0092D39B /* MonthCalenderViewCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthCalenderViewCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		BFC22AB71F0E50FD0092D39B /* TaskDateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDateModel.swift; sourceTree = "<group>"; };
+		BFC22AB81F0E50FD0092D39B /* TaskListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListCell.swift; sourceTree = "<group>"; };
+		BFC22AC11F0E51C00092D39B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BFC22AC21F0E51C00092D39B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BFC22AC41F0E51C00092D39B /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		BFC22AC61F0E51C00092D39B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BFC22AC71F0E51C00092D39B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BFC22AC91F0E51C00092D39B /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		BFC22ACA1F0E51C00092D39B /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		BFC22ACB1F0E51C00092D39B /* ConstraintConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
+		BFC22ACC1F0E51C00092D39B /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		BFC22ACD1F0E51C00092D39B /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		BFC22ACE1F0E51C00092D39B /* ConstraintDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
+		BFC22ACF1F0E51C00092D39B /* ConstraintInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
+		BFC22AD01F0E51C00092D39B /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		BFC22AD11F0E51C00092D39B /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		BFC22AD21F0E51C00092D39B /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		BFC22AD31F0E51C00092D39B /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		BFC22AD41F0E51C00092D39B /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		BFC22AD51F0E51C00092D39B /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		BFC22AD61F0E51C00092D39B /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		BFC22AD71F0E51C00092D39B /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		BFC22AD81F0E51C00092D39B /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		BFC22AD91F0E51C00092D39B /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		BFC22ADA1F0E51C00092D39B /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		BFC22ADB1F0E51C00092D39B /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		BFC22ADC1F0E51C00092D39B /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		BFC22ADD1F0E51C00092D39B /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		BFC22ADE1F0E51C00092D39B /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		BFC22ADF1F0E51C00092D39B /* ConstraintPriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriority.swift; sourceTree = "<group>"; };
+		BFC22AE01F0E51C00092D39B /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		BFC22AE11F0E51C00092D39B /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		BFC22AE21F0E51C00092D39B /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		BFC22AE31F0E51C00092D39B /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		BFC22AE41F0E51C00092D39B /* ConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
+		BFC22AE51F0E51C00092D39B /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		BFC22AE61F0E51C00092D39B /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		BFC22AE71F0E51C00092D39B /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		BFC22AE81F0E51C00092D39B /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		BFC22AE91F0E51C00092D39B /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		BFC22B101F0E524E0092D39B /* SwiftUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC22A7D1F0E50B30092D39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC22A911F0E50B30092D39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC22A9C1F0E50B30092D39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFC22A771F0E50B20092D39B = {
+			isa = PBXGroup;
+			children = (
+				BFC22A821F0E50B30092D39B /* Calender */,
+				BFC22A971F0E50B30092D39B /* CalenderTests */,
+				BFC22AA21F0E50B30092D39B /* CalenderUITests */,
+				BFC22A811F0E50B30092D39B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC22A811F0E50B30092D39B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC22A801F0E50B30092D39B /* Calender.app */,
+				BFC22A941F0E50B30092D39B /* CalenderTests.xctest */,
+				BFC22A9F1F0E50B30092D39B /* CalenderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC22A821F0E50B30092D39B /* Calender */ = {
+			isa = PBXGroup;
+			children = (
+				BFC22AC01F0E51C00092D39B /* AFDateHelper */,
+				BFC22AC51F0E51C00092D39B /* SnapKit */,
+				BFC22AB11F0E50FD0092D39B /* Calendar */,
+				BFC22A831F0E50B30092D39B /* AppDelegate.swift */,
+				BFC22A851F0E50B30092D39B /* ViewController.swift */,
+				BFC22A871F0E50B30092D39B /* Main.storyboard */,
+				BFC22A8A1F0E50B30092D39B /* Assets.xcassets */,
+				BFC22A8C1F0E50B30092D39B /* LaunchScreen.storyboard */,
+				BFC22A8F1F0E50B30092D39B /* Info.plist */,
+			);
+			path = Calender;
+			sourceTree = "<group>";
+		};
+		BFC22A971F0E50B30092D39B /* CalenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC22A981F0E50B30092D39B /* CalenderTests.swift */,
+				BFC22A9A1F0E50B30092D39B /* Info.plist */,
+			);
+			path = CalenderTests;
+			sourceTree = "<group>";
+		};
+		BFC22AA21F0E50B30092D39B /* CalenderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC22AA31F0E50B30092D39B /* CalenderUITests.swift */,
+				BFC22AA51F0E50B30092D39B /* Info.plist */,
+			);
+			path = CalenderUITests;
+			sourceTree = "<group>";
+		};
+		BFC22AB11F0E50FD0092D39B /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				BFC22AB31F0E50FD0092D39B /* CalenderTaskCell.swift */,
+				BFC22AB41F0E50FD0092D39B /* DayCalenderCell.swift */,
+				BFC22AB51F0E50FD0092D39B /* ExpandCalender.swift */,
+				BFC22AB61F0E50FD0092D39B /* MonthCalenderViewCellCollectionViewCell.swift */,
+				BFC22AB71F0E50FD0092D39B /* TaskDateModel.swift */,
+				BFC22AB81F0E50FD0092D39B /* TaskListCell.swift */,
+				BFC22B101F0E524E0092D39B /* SwiftUtils.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		BFC22AC01F0E51C00092D39B /* AFDateHelper */ = {
+			isa = PBXGroup;
+			children = (
+				BFC22AC11F0E51C00092D39B /* LICENSE */,
+				BFC22AC21F0E51C00092D39B /* README.md */,
+				BFC22AC31F0E51C00092D39B /* Sources */,
+			);
+			path = AFDateHelper;
+			sourceTree = "<group>";
+		};
+		BFC22AC31F0E51C00092D39B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BFC22AC41F0E51C00092D39B /* DateHelper.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BFC22AC51F0E51C00092D39B /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				BFC22AC61F0E51C00092D39B /* LICENSE */,
+				BFC22AC71F0E51C00092D39B /* README.md */,
+				BFC22AC81F0E51C00092D39B /* Source */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		BFC22AC81F0E51C00092D39B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BFC22AC91F0E51C00092D39B /* Constraint.swift */,
+				BFC22ACA1F0E51C00092D39B /* ConstraintAttributes.swift */,
+				BFC22ACB1F0E51C00092D39B /* ConstraintConfig.swift */,
+				BFC22ACC1F0E51C00092D39B /* ConstraintConstantTarget.swift */,
+				BFC22ACD1F0E51C00092D39B /* ConstraintDescription.swift */,
+				BFC22ACE1F0E51C00092D39B /* ConstraintDSL.swift */,
+				BFC22ACF1F0E51C00092D39B /* ConstraintInsets.swift */,
+				BFC22AD01F0E51C00092D39B /* ConstraintInsetTarget.swift */,
+				BFC22AD11F0E51C00092D39B /* ConstraintItem.swift */,
+				BFC22AD21F0E51C00092D39B /* ConstraintLayoutGuide+Extensions.swift */,
+				BFC22AD31F0E51C00092D39B /* ConstraintLayoutGuide.swift */,
+				BFC22AD41F0E51C00092D39B /* ConstraintLayoutGuideDSL.swift */,
+				BFC22AD51F0E51C00092D39B /* ConstraintLayoutSupport.swift */,
+				BFC22AD61F0E51C00092D39B /* ConstraintLayoutSupportDSL.swift */,
+				BFC22AD71F0E51C00092D39B /* ConstraintMaker.swift */,
+				BFC22AD81F0E51C00092D39B /* ConstraintMakerEditable.swift */,
+				BFC22AD91F0E51C00092D39B /* ConstraintMakerExtendable.swift */,
+				BFC22ADA1F0E51C00092D39B /* ConstraintMakerFinalizable.swift */,
+				BFC22ADB1F0E51C00092D39B /* ConstraintMakerPriortizable.swift */,
+				BFC22ADC1F0E51C00092D39B /* ConstraintMakerRelatable.swift */,
+				BFC22ADD1F0E51C00092D39B /* ConstraintMultiplierTarget.swift */,
+				BFC22ADE1F0E51C00092D39B /* ConstraintOffsetTarget.swift */,
+				BFC22ADF1F0E51C00092D39B /* ConstraintPriority.swift */,
+				BFC22AE01F0E51C00092D39B /* ConstraintPriorityTarget.swift */,
+				BFC22AE11F0E51C00092D39B /* ConstraintRelatableTarget.swift */,
+				BFC22AE21F0E51C00092D39B /* ConstraintRelation.swift */,
+				BFC22AE31F0E51C00092D39B /* ConstraintView+Extensions.swift */,
+				BFC22AE41F0E51C00092D39B /* ConstraintView.swift */,
+				BFC22AE51F0E51C00092D39B /* ConstraintViewDSL.swift */,
+				BFC22AE61F0E51C00092D39B /* Debugging.swift */,
+				BFC22AE71F0E51C00092D39B /* LayoutConstraint.swift */,
+				BFC22AE81F0E51C00092D39B /* LayoutConstraintItem.swift */,
+				BFC22AE91F0E51C00092D39B /* UILayoutSupport+Extensions.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC22A7F1F0E50B30092D39B /* Calender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC22AA81F0E50B30092D39B /* Build configuration list for PBXNativeTarget "Calender" */;
+			buildPhases = (
+				BFC22A7C1F0E50B30092D39B /* Sources */,
+				BFC22A7D1F0E50B30092D39B /* Frameworks */,
+				BFC22A7E1F0E50B30092D39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calender;
+			productName = Calender;
+			productReference = BFC22A801F0E50B30092D39B /* Calender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFC22A931F0E50B30092D39B /* CalenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC22AAB1F0E50B30092D39B /* Build configuration list for PBXNativeTarget "CalenderTests" */;
+			buildPhases = (
+				BFC22A901F0E50B30092D39B /* Sources */,
+				BFC22A911F0E50B30092D39B /* Frameworks */,
+				BFC22A921F0E50B30092D39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC22A961F0E50B30092D39B /* PBXTargetDependency */,
+			);
+			name = CalenderTests;
+			productName = CalenderTests;
+			productReference = BFC22A941F0E50B30092D39B /* CalenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFC22A9E1F0E50B30092D39B /* CalenderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC22AAE1F0E50B30092D39B /* Build configuration list for PBXNativeTarget "CalenderUITests" */;
+			buildPhases = (
+				BFC22A9B1F0E50B30092D39B /* Sources */,
+				BFC22A9C1F0E50B30092D39B /* Frameworks */,
+				BFC22A9D1F0E50B30092D39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC22AA11F0E50B30092D39B /* PBXTargetDependency */,
+			);
+			name = CalenderUITests;
+			productName = CalenderUITests;
+			productReference = BFC22A9F1F0E50B30092D39B /* CalenderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC22A781F0E50B20092D39B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = broydenty;
+				TargetAttributes = {
+					BFC22A7F1F0E50B30092D39B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6GQQQFWZT5;
+						ProvisioningStyle = Automatic;
+					};
+					BFC22A931F0E50B30092D39B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6GQQQFWZT5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFC22A7F1F0E50B30092D39B;
+					};
+					BFC22A9E1F0E50B30092D39B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6GQQQFWZT5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFC22A7F1F0E50B30092D39B;
+					};
+				};
+			};
+			buildConfigurationList = BFC22A7B1F0E50B20092D39B /* Build configuration list for PBXProject "Calender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFC22A771F0E50B20092D39B;
+			productRefGroup = BFC22A811F0E50B30092D39B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC22A7F1F0E50B30092D39B /* Calender */,
+				BFC22A931F0E50B30092D39B /* CalenderTests */,
+				BFC22A9E1F0E50B30092D39B /* CalenderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFC22A7E1F0E50B30092D39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC22A8E1F0E50B30092D39B /* LaunchScreen.storyboard in Resources */,
+				BFC22A8B1F0E50B30092D39B /* Assets.xcassets in Resources */,
+				BFC22AEA1F0E51C00092D39B /* LICENSE in Resources */,
+				BFC22A891F0E50B30092D39B /* Main.storyboard in Resources */,
+				BFC22AED1F0E51C00092D39B /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC22A921F0E50B30092D39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC22A9D1F0E50B30092D39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC22A7C1F0E50B30092D39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC22B0F1F0E51C00092D39B /* UILayoutSupport+Extensions.swift in Sources */,
+				BFC22B031F0E51C00092D39B /* ConstraintMultiplierTarget.swift in Sources */,
+				BFC22B051F0E51C00092D39B /* ConstraintPriority.swift in Sources */,
+				BFC22B0D1F0E51C00092D39B /* LayoutConstraint.swift in Sources */,
+				BFC22B091F0E51C00092D39B /* ConstraintView+Extensions.swift in Sources */,
+				BFC22ABE1F0E50FD0092D39B /* TaskDateModel.swift in Sources */,
+				BFC22AF31F0E51C00092D39B /* ConstraintDescription.swift in Sources */,
+				BFC22B081F0E51C00092D39B /* ConstraintRelation.swift in Sources */,
+				BFC22AFD1F0E51C00092D39B /* ConstraintMaker.swift in Sources */,
+				BFC22AF41F0E51C00092D39B /* ConstraintDSL.swift in Sources */,
+				BFC22AFB1F0E51C00092D39B /* ConstraintLayoutSupport.swift in Sources */,
+				BFC22B061F0E51C00092D39B /* ConstraintPriorityTarget.swift in Sources */,
+				BFC22AF11F0E51C00092D39B /* ConstraintConfig.swift in Sources */,
+				BFC22ABF1F0E50FD0092D39B /* TaskListCell.swift in Sources */,
+				BFC22B111F0E524E0092D39B /* SwiftUtils.swift in Sources */,
+				BFC22AFE1F0E51C00092D39B /* ConstraintMakerEditable.swift in Sources */,
+				BFC22AFA1F0E51C00092D39B /* ConstraintLayoutGuideDSL.swift in Sources */,
+				BFC22AEB1F0E51C00092D39B /* README.md in Sources */,
+				BFC22B0A1F0E51C00092D39B /* ConstraintView.swift in Sources */,
+				BFC22ABB1F0E50FD0092D39B /* DayCalenderCell.swift in Sources */,
+				BFC22B0B1F0E51C00092D39B /* ConstraintViewDSL.swift in Sources */,
+				BFC22AFF1F0E51C00092D39B /* ConstraintMakerExtendable.swift in Sources */,
+				BFC22ABD1F0E50FD0092D39B /* MonthCalenderViewCellCollectionViewCell.swift in Sources */,
+				BFC22A861F0E50B30092D39B /* ViewController.swift in Sources */,
+				BFC22AF81F0E51C00092D39B /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				BFC22B0C1F0E51C00092D39B /* Debugging.swift in Sources */,
+				BFC22B011F0E51C00092D39B /* ConstraintMakerPriortizable.swift in Sources */,
+				BFC22AF61F0E51C00092D39B /* ConstraintInsetTarget.swift in Sources */,
+				BFC22AEE1F0E51C00092D39B /* README.md in Sources */,
+				BFC22ABA1F0E50FD0092D39B /* CalenderTaskCell.swift in Sources */,
+				BFC22AF51F0E51C00092D39B /* ConstraintInsets.swift in Sources */,
+				BFC22B041F0E51C00092D39B /* ConstraintOffsetTarget.swift in Sources */,
+				BFC22AF71F0E51C00092D39B /* ConstraintItem.swift in Sources */,
+				BFC22AF01F0E51C00092D39B /* ConstraintAttributes.swift in Sources */,
+				BFC22B001F0E51C00092D39B /* ConstraintMakerFinalizable.swift in Sources */,
+				BFC22A841F0E50B30092D39B /* AppDelegate.swift in Sources */,
+				BFC22B0E1F0E51C00092D39B /* LayoutConstraintItem.swift in Sources */,
+				BFC22B071F0E51C00092D39B /* ConstraintRelatableTarget.swift in Sources */,
+				BFC22AF91F0E51C00092D39B /* ConstraintLayoutGuide.swift in Sources */,
+				BFC22B021F0E51C00092D39B /* ConstraintMakerRelatable.swift in Sources */,
+				BFC22AEC1F0E51C00092D39B /* DateHelper.swift in Sources */,
+				BFC22AFC1F0E51C00092D39B /* ConstraintLayoutSupportDSL.swift in Sources */,
+				BFC22ABC1F0E50FD0092D39B /* ExpandCalender.swift in Sources */,
+				BFC22AEF1F0E51C00092D39B /* Constraint.swift in Sources */,
+				BFC22AF21F0E51C00092D39B /* ConstraintConstantTarget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC22A901F0E50B30092D39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC22A991F0E50B30092D39B /* CalenderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC22A9B1F0E50B30092D39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC22AA41F0E50B30092D39B /* CalenderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFC22A961F0E50B30092D39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFC22A7F1F0E50B30092D39B /* Calender */;
+			targetProxy = BFC22A951F0E50B30092D39B /* PBXContainerItemProxy */;
+		};
+		BFC22AA11F0E50B30092D39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFC22A7F1F0E50B30092D39B /* Calender */;
+			targetProxy = BFC22AA01F0E50B30092D39B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFC22A871F0E50B30092D39B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC22A881F0E50B30092D39B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFC22A8C1F0E50B30092D39B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC22A8D1F0E50B30092D39B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFC22AA61F0E50B30092D39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFC22AA71F0E50B30092D39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC22AA91F0E50B30092D39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6GQQQFWZT5;
+				INFOPLIST_FILE = Calender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geehao.shl.Calender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BFC22AAA1F0E50B30092D39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6GQQQFWZT5;
+				INFOPLIST_FILE = Calender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geehao.shl.Calender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BFC22AAC1F0E50B30092D39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6GQQQFWZT5;
+				INFOPLIST_FILE = CalenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geehao.shl.CalenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calender.app/Calender";
+			};
+			name = Debug;
+		};
+		BFC22AAD1F0E50B30092D39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6GQQQFWZT5;
+				INFOPLIST_FILE = CalenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geehao.shl.CalenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calender.app/Calender";
+			};
+			name = Release;
+		};
+		BFC22AAF1F0E50B30092D39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6GQQQFWZT5;
+				INFOPLIST_FILE = CalenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geehao.shl.CalenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Calender;
+			};
+			name = Debug;
+		};
+		BFC22AB01F0E50B30092D39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6GQQQFWZT5;
+				INFOPLIST_FILE = CalenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geehao.shl.CalenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Calender;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC22A7B1F0E50B20092D39B /* Build configuration list for PBXProject "Calender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC22AA61F0E50B30092D39B /* Debug */,
+				BFC22AA71F0E50B30092D39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC22AA81F0E50B30092D39B /* Build configuration list for PBXNativeTarget "Calender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC22AA91F0E50B30092D39B /* Debug */,
+				BFC22AAA1F0E50B30092D39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFC22AAB1F0E50B30092D39B /* Build configuration list for PBXNativeTarget "CalenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC22AAC1F0E50B30092D39B /* Debug */,
+				BFC22AAD1F0E50B30092D39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFC22AAE1F0E50B30092D39B /* Build configuration list for PBXNativeTarget "CalenderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC22AAF1F0E50B30092D39B /* Debug */,
+				BFC22AB01F0E50B30092D39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC22A781F0E50B20092D39B /* Project object */;
+}
