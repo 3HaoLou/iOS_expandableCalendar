@@ -1,9 +1,9 @@
 # iOS_expandableCalendar
-我们是[三号楼](http://3haolou.com/) 专注局部装修100年
+## 我们是 [ 三号楼 ](http://3haolou.com/) 专注局部装修100年
 
 简单的一个日历任务预览控件,供大家参考
 
-由于日前,产品小伙伴安利了一发任务清单的App ["滴答清单"](https://www.dida365.com/),所以我们学(cao)习(xi)了一发日历任务控件
+由于日前,产品小伙伴安利了一发任务清单的App  ["滴答清单"](https://www.dida365.com)  所以我们学(cao)习(xi)了一发日历任务控件
 
 
 ![控件简介](https://github.com/3HaoLou/iOS_expandableCalendar/blob/master/github.gif)
